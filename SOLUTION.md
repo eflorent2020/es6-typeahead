@@ -8,7 +8,7 @@
 
 - Build an xhrAdapter (in production would have used Axios, for coding challenge)
 
-- Find an way to select using key up/down/enter using the leasat time possible
+- Find an way to select using key up/down/enter using the least time possible
 
 - Add rate limit protection (threshold + keyup timeout)
 
