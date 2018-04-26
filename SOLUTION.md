@@ -22,7 +22,7 @@
 
 - CSS
 
-## Usage
+## Usage
 
 new Autocomplete(element, options)
 
