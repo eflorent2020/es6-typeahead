@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Autocomplete</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+
+      <table width="100%" height="640">
+        <thead>
+          <th width="50%"></th>
+          <th></th>
+        </thead>
+        <tbody>
+          <tr valign="top">
+            <td align="center">
+
+              <!-- Using a HTTP endpoint -->
+              <div class="gh-users-group form-group">
+                <p>Github User<br> (ex: emmanuel-florent)</p>  
+                <div id="gh-user"></div>
+              </div>
+
+            </td>
+            <td align="center">
+              <p><a id="user"></p>
+              <img id="avatar" src="">
+              <p id='error'></p>
+        
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr>
+      <!-- Using an array object -->
+      <div class="state-group form-group">
+        <label>State:</label>
+        <div id="state"></div>
+      </div>
+  
+      <script src="/dist/bundle.js"></script>
+
+  </body>
+</html>
